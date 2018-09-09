@@ -1,0 +1,10 @@
+{
+    "editor.multiCursorModifier": "alt",
+    "editor.mouseWheelZoom": true,
+    "editor.formatOnSave": true,
+    "debug.inlineValues": true,
+    "window.zoomLevel": 0,
+    "files.autoSave": "off",
+    "git.ignoreMissingGitWarning": true,
+    "editor.fontLigatures": true
+}
