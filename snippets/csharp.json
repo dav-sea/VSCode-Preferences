@@ -62,11 +62,12 @@
 	"InfiniteWorkflow Script Component Null": {
 		"prefix": "initnull",
 		"body": [
-			"if($0 == null)",
+			"if($1 == null)",
 			"{",
-			"\tInitializeFailed(nameof($0) + \"is null, in \" + GameObject.name );",
+			"\tInitializeFailed(nameof($1) + \"is null, in \" + GameObject.name );",
 			"\treturn;",
-			"}"
+			"}",
+			"$0"
 		]
 	},
 	"InfiniteWorkflow Script Component Null In Edit Mode": {
